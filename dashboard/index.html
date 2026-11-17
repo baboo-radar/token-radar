@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar — pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="scan" aria-hidden="true"></div>
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div>
+        <h1>Token&nbsp;Radar</h1>
+        <p class="tag">pre-token protocols, ranked by the implied value of the token each may issue one day</p>
+      </div>
+    </div>
+    <nav class="topnav" aria-label="Views">
+      <button class="navbtn is-active" id="nav-board" type="button">Board</button>
+      <button class="navbtn" id="nav-model" type="button">Model</button>
+    </nav>
+  </header>
+  <section class="stats" id="stats" aria-label="Snapshot summary"></section>
+  <section class="controls" id="controls" aria-label="Filters"></section>
+  <main id="view" class="view" tabindex="-1"></main>
+  <footer class="foot">
+    <p id="foot-line"></p>
+  </footer>
+</div>
+<script src="../data.js"></script>
+<script src="js/util.js"></script>
+<script src="js/state.js"></script>
+<script src="js/board.js"></script>
+<script src="js/detail.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
